@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>TodoList</title>
+        <link
+            href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+            rel="stylesheet"
+            />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+            integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+            crossorigin="anonymous"
+            />
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style_todo.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="duma.css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+        <link rel="shortcut icon" href="https://www.dropbox.com/s/qoli7vjzc3p0q8f/favicon-sun-o.ico?dl=1" type="image/x-icon" />
+        <script src="https://use.fontawesome.com/58bcbed17c.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="close" id="closebtn"><i id="cbtn" class="fa fa-window-close" aria-hidden="true"></i></div>
+        <div class="alltodo">
+   
+        <h2 id="gwel" class="texts">Good Day!</h2>
+        <center><h4  id="tag" class="texts">To-Do List</h4></center>
+    
+    
+
+  <!--  <div id="all" class="font centered shadedbg">
+        <div id="date" class="font shadedbg">
+            <i class="fa fa-heart-o"></i>
+        </div>
+        <h3>Word of the Day</h3>
+        
+        <a id="link" href="#" target="_blank"><div id="word"></div></a>
+        <div id="pronun"></div>
+        <div id="defin"></div>
+        <br>
+        <br>
+    </div>-->
+
+ 
+    <form>
+      <div class="inlineb"><div class="inputbtn"> <center><input type="text" class="todo-input" />
+        <button class="todo-button" type="submit">
+            <span> <i id="addbtn" class="fas fa-plus-square"></i></span>
+        </button></center></div>
+        <div class="select">
+            <select name="todos" class="filter-todo">
+            <option value="all">All</option>
+            <option value="completed">Completed</option>
+            <option value="incomplete">Uncompleted</option>
+            </select>
+        </div></div>
+    </form>
+   <center><h4 id="list" class="texts">Your Today's Tasks</h4></center>
+    <div class="todo-container">
+        <ul class="todo-list"></ul>
+    </div>
+    
+    <script src="./app.js"></script></div>
+    <script src="todoclose.js"></script>
+    </body>
+</html>

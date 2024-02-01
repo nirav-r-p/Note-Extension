@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+/*--------------------------Navbar--------------------------------*/
+.navbar{
+   
+    padding: 8px;
+    background-color: #99B898;
+    border-radius: 2px;
+
+}
+
+.navbar-brand{
+    margin-left: 10px;
+    font-size: 40px;
+    color: black;
+}
+
+#navbarNav a{
+    margin: 8px;
+    font-size: 22px;
+} 
+
+/*------------------------------Project Part-------------------------------------------------*/
+.container h3{
+    cursor: pointer;
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: 20vh;
+}
+#About-Project{
+    background-color:#FECEA8;
+    border-radius: 2px;
+}
+p{
+    margin-bottom: 20vh;
+}
+/*----------------------------------Purpose--------------------------------------*/
+#purpose{
+    background-color:#FF847C;
+    border-radius: 2px;
+}
+/*-------------------------------------Scope------------------------------------*/
+#Scope{
+    background-color: aquamarine;
+}
+/*----------------------------------------Feature-----------------------------------------*/
+#Feature{
+    background-color: aliceblue;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:600px) {
+    .navbar-brand{
+        font-size: 18px;
+    }
+    #navbarNav a{
+        margin: 8px;
+        font-size: 16px;
+    } 
+    .revealup{
+        text-align: center;
+    }
+    a{
+        text-align: center;
+    }
+    p{
+        font-size: 15px;
+    }
+    .container h3{
+        cursor: pointer;
+        font-size: 35px;
+        font-weight: 400;
+        margin-top: 12vh;
+    }
+}
+@media only screen and (max-width:768px) {
+    .navbar-brand{
+        font-size: 20px;
+       
+    }
+    .revealup{
+        text-align: center;
+    }
+    a{
+        text-align: center;
+    }
+    p{
+        font-size: 16px;
+    }
+    .container h3{
+        cursor: pointer;
+        font-size: 38px;
+        font-weight: 400;
+        margin-top: 14vh;
+    }
+}
+@media  only screen and (max-width:992px) {
+    
+}
+@media only screen and (max-width:1200px) {
+    .navbar-brand{
+        font-size: 25px;
+    }
+    
+}

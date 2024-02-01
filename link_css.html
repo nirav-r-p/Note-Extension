@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+  <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://localhost:* 'unsafe-inline' 'unsafe-eval'" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link CSS file</title>
+  <link rel="stylesheet" href="file1.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+            integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous"/>
+</head>
+
+<body id="body">
+  <div class="one">
+<div class="wel"><center><image id="img1" src="mainlogo.jpeg"></image></center><h3><b><center>Innottate</center></b></h3><center><p id="linet">Making the world fall in ❤️ with online reading...</p></center></div>
+<center>
+<div class="allbtns">
+        <button id="dict" name="dictonary" class="btn">Dictonary</button>
+        <button id="translate" name="Translate" class="btn">Translate</button><br><br>
+        <button id="todolist" name="todolist" class="btn">To-Do List</button>
+        
+</div></center>
+
+<div class="comp"><image id="comp_logo" src="company_logo.jpeg"></image><span id="comp_name">EasyRead Technologies Inc</span><div id="clock"></div></div>
+  <p id="text"></p>
+<div  id="btnftr" class="btnfeature">
+  <iframe id="translate_1" class="transbox" src="/index.html" ></iframe>
+  <iframe id="dictonary_1" class="dictbox" src="index_dictonary.html"></iframe>
+  <iframe id="highlight_1" class="highlight" src="src/popup/popup.html" frameborder="0"></iframe>
+  <iframe id="todo_1" class="todo" src="index_todo.html" frameborder="0"></iframe>
+</div>
+</div>
+</body>
+
+<script src="dictonary.js"></script>
+<script src="clock.js"></script>
+<script src="./app.js"></script>
+
+</html>

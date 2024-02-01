@@ -1,0 +1,186 @@
+*{
+  padding: 0%;
+  margin: 0%;
+ }
+ 
+ body{
+   /*background-color: #EEA47FFF;
+  background-color: rgba(255,255,255,.15);
+   backdrop-filter: blur(5px);
+   box-shadow: inset 0 0 200px rgba(255,255,255,.5);
+   filter: blur(10px);*/
+   
+   background-size: 320px 480px;
+   background-image: url("main_bg8.jpg");
+ 
+ }
+ .wel{
+   color: white;
+   margin-top: 2%;
+   margin-left: 4%;
+   margin-bottom: 3%;
+   font-size: 210%;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
+ }
+ #img1{
+   display: inline;
+   border: solid thin white;
+   border-radius: 10%;
+   width: 17%;
+   height: 17%;
+   margin-top: 6%;
+   margin-right: 1%;
+ }
+ 
+ .comp{
+  display: flex;
+  align-items: center;
+  margin: 1% 3%;
+ }
+ #comp_name{
+   color: white;
+   padding: 10px;
+   font-size: 110%;
+   font-weight: 400;
+ }
+ 
+ #clock{
+   color: white;
+   border: solid 2px white;
+   border-radius: 10px;
+   font-size: 160%;
+   font-weight: 300;
+   
+ 
+   margin-left: 3%;
+   margin-right: 1%;
+   padding: 1% 2%;
+   background: rgba(255, 255, 255, 0.1);
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+   backdrop-filter: blur(10px);
+   -webkit-backdrop-filter: blur(10px);
+   border: 1px solid rgba(255, 255, 255, 0.3);
+ }
+ 
+ #comp_logo{
+   
+   display: inline;
+   width: 10%;
+   height: 10%;
+ }
+ .one{
+   width: 320px;
+   height: 140px;
+ }
+ .allbtns{
+   display: block;
+ }
+ 
+  .btnfeature{
+   margin-top: 2%;
+   margin-left: 2%;
+   height: 30%;
+   display: none;
+  } 
+   /* additions */
+   .btn {
+     display: inline-block;
+     width: 34vw;
+     height: 34vw;
+     padding: 2px;
+     font-size: 19px;
+     font-weight: 800;
+     border: solid thin rgb(99, 99, 99);
+     border-radius: 8px;
+     background-color: rgb(46, 131, 206);
+     color: white;
+     cursor: pointer;
+     background: rgba(255, 255, 255, 0.6);
+ border-radius: 16px;
+ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+ backdrop-filter: blur(10px);
+ -webkit-backdrop-filter: blur(10px);
+ border: 1px solid rgba(255, 255, 255, 0.3);
+   
+   }
+   h6{
+     display: inline-block;
+   }
+   #highl{
+     margin-left: 3%;
+     display: inline-block;
+   }
+ 
+   #translate{
+     margin-left: 3%;
+     display: inline-block;
+   }
+   #todolist{
+     margin-top: 2%;
+     margin-bottom: 4%;
+     width: 73%;
+   }
+ 
+   #linet{
+     color: white;
+     font-size: 65%;
+   }
+   .btn:hover{
+     box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+     transform: translate3d(0,-0.42em,17px);
+     background-color: rgb(17, 0, 200);
+     color: white;
+     animation: mymove;
+     background: rgba(255, 255, 255, 0.3);
+ border-radius: 16px;
+ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+ backdrop-filter: blur(5px);
+ -webkit-backdrop-filter: blur(5px);
+ border: 1px solid rgba(255, 255, 255, 0.1);
+   }
+   @keyframes mymove {
+     50%{box-shadow: 5px 5px 5px black;}
+   }
+   
+   .dictbar{
+      border: solid medium black;
+      border-radius: 5px;
+      background-color: #1b9ed7c5;
+      border-width: 3px;
+   }
+ 
+   .close{
+     margin-right: 0%;
+   }
+ 
+   .transbox{
+     display: none;
+     cursor: pointer;
+     position: absolute;
+     min-width: 260px;
+     min-height: 320px;
+   }
+ 
+   .dictbox{
+     display: none;
+     position: absolute;
+     min-width: 310px;
+     min-height: 190px;
+   }
+ 
+   .highlight{
+     display: none;
+     cursor: pointer;
+     position: absolute;
+     min-width: 90vw;
+     min-height: 70vh;
+   }
+ 
+   .todo{
+     display: none;
+     cursor: pointer;
+     position: absolute;
+     min-width: 320px;
+     min-height: 490px;
+   }
